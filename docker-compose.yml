@@ -23,7 +23,7 @@ services:
     image: postgres:15
     container_name: postgres
     environment:
-      POSTGRES_USER: owncloud
+      POSTGRES_USERNAME: owncloud
       POSTGRES_PASSWORD: securepassword
       POSTGRES_DB: owncloud
     volumes:
